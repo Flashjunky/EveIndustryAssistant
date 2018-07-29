@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{E4285686-C819-4AF6-B51E-41A684D6FC8F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\blueprints.yaml = ..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\blueprints.yaml
+		..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\typeIDs.yaml = ..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\typeIDs.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve.StaticData", "Eve.StaticData\Eve.StaticData.csproj", "{14A9430B-679E-474C-AC0D-36780404327F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14A9430B-679E-474C-AC0D-36780404327F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A9430B-679E-474C-AC0D-36780404327F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A9430B-679E-474C-AC0D-36780404327F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A9430B-679E-474C-AC0D-36780404327F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C84A07C-248C-4C96-986F-AD6EA7290CDC}
+	EndGlobalSection
+EndGlobal
