@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{E4285686-C819-4AF6-B51E-41A684D6FC8F}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\blueprints.yaml = ..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\blueprints.yaml
-		..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\typeIDs.yaml = ..\..\..\Downloads\sde-20180529-TRANQUILITY\sde\fsd\typeIDs.yaml
+		..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\blueprints.yaml = ..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\blueprints.yaml
+		..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\typeIDs.yaml = ..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\typeIDs.yaml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve.StaticData", "Eve.StaticData\Eve.StaticData.csproj", "{14A9430B-679E-474C-AC0D-36780404327F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eve.StaticData", "Eve.StaticData\Eve.StaticData.csproj", "{14A9430B-679E-474C-AC0D-36780404327F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
