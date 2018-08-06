@@ -81,6 +81,7 @@ namespace Eve.StaticData
             foreach (var entry in mapping.Children)
             {
                 var typeId = ((YamlScalarNode)entry.Key).Value;
+                var capacity = entry.Children[new YamlScalarNode("part_no")];
                 var basePrice = (YamlScalarNode)mapping.Children[new YamlScalarNode("items")];
             }
 
