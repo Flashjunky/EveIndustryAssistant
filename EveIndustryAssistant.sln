@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{E4285686-C819-4AF6-B51E-41A684D6FC8F}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\blueprints.yaml = ..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\blueprints.yaml
-		..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\typeIDs.yaml = ..\..\..\Downloads\sde-20180713-TRANQUILITY\sde\fsd\typeIDs.yaml
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eve.StaticData", "Eve.StaticData\Eve.StaticData.csproj", "{14A9430B-679E-474C-AC0D-36780404327F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C17D6DC-F871-498C-80C7-45355F6426A3}"
+	ProjectSection(SolutionItems) = preProject
+		EveStaticData_YAML\blueprints.yaml = EveStaticData_YAML\blueprints.yaml
+		EveStaticData_YAML\typeIDs.yaml = EveStaticData_YAML\typeIDs.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

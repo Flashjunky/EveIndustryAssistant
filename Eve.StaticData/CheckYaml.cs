@@ -12,7 +12,6 @@ using YamlDotNet.RepresentationModel;
 using System.Collections.Generic;
 using Eve.StaticData.Interfaces;
 using Eve.StaticData.DTO;
-using YamlDotNet.Core.Tokens;
 
 namespace Eve.StaticData
 {
@@ -65,9 +64,7 @@ namespace Eve.StaticData
             documentClient = new DocumentClient(
                 new Uri("https://localhost:8081"),
                 "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==");
-
-            Task<string> blobStringData = null;
-            blobStringData = (typeIds.DownloadTextAsync());
+            Task<string> blobStringData = typeIds.DownloadTextAsync();
             blobStringData.Wait();
 
             var input = new StringReader(blobStringData.Result);
@@ -81,7 +78,7 @@ namespace Eve.StaticData
             foreach (var entry in mapping.Children)
             {
                 var typeId = ((YamlScalarNode)entry.Key).Value;
-                var capacity = entry.Children[new YamlScalarNode("part_no")];
+                //var capacity = entry.Children[new YamlScalarNode("part_no")];
                 var basePrice = (YamlScalarNode)mapping.Children[new YamlScalarNode("items")];
             }
 
